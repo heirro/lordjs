@@ -1,6 +1,6 @@
 var indexPage = "home";
 var errorPage = "404";
-var parameter = "#/";
+var parameter = "?";
 var routing = {
     "home": "./views/home",
     "about": "./views/about",
