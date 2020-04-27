@@ -7,9 +7,9 @@
   </head>
 <h1>Single Page Application</h1>
     <div>
-        <a onclick="window.close()" href="./#/home" target="_blank">Home</a>
-        <a onclick="window.close()" href="./#/user/user1" target="_blank">User1</a>
-        <a onclick="window.close()" href="./#/user/user2" target="_blank">User2</a>
-        <a onclick="window.close()" href="./#/about" target="_blank">About</a>
-        <a onclick="window.close()" href="./#/this-page-not-exist" target="_blank">404</a>
+        <a href="./?home">Home</a>
+        <a href="./?user/user1">User1</a>
+        <a href="./?user/user2">User2</a>
+        <a href="./?about">About</a>
+        <a href="./?this-page-not-exist">404</a>
     </div>
