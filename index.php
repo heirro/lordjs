@@ -10,8 +10,8 @@
 <h1>Single Page Application</h1>
     <div>
         <a href="./?home">Home</a>
-        <a onclick="javascript:location.reload('./?u/#user1')" href="./?u/#user1">User1</a>
-        <a onclick="javascript:location.reload('./?u/#user2')" href="./?u/#user2">User2</a>
+        <a onclick="javascript:window.location.replace('./?u/#user1')" href="./?u/#user1">User1</a>
+        <a onclick="javascript:window.location.replace('./?u/#user2')" href="./?u/#user2">User2</a>
         <a href="./?about">About</a>
         <a href="./?this-page-not-exist">404</a>
     </div>
