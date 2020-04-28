@@ -67,6 +67,6 @@ class Obfuscator{
 	static function cleanHtml($c){ return preg_replace('/<!--(.|\s)*?-->/','',$c); }
 	static function cleanJS($c){ return preg_replace(self::$search,self::$replace,preg_replace('/(?:(?:\/\*(?:[^*]|(?:\*+[^*\/]))*\*+\/)|(?:(?<!\:|\\\|\')\/\/.*))/','',$c)); }
 }
-$htmlCode = file_get_contents('./routing.js');; //Simple HTML code
+$htmlCode = file_get_contents('./routing.js'); //Simple HTML code
 $hunter = new HunterObfuscator($htmlCode, true); //Initialize with HTML code in first parameter and set second one to TRUE
 $obsfucated = $hunter->Obfuscate(); //Do obfuscate and get the obfuscated code
