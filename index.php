@@ -10,8 +10,8 @@
 <h1>Single Page Application</h1>
     <div>
         <a href="./?home">Home</a>
-        <a onclick="javascript:user1()" href="./?api/#hashCode">User1</a>
-        <a onclick="javascript:user2()" href="./?u/#user2">User2</a>
+        <a onclick="javascript:user1()" href="">User1</a>
+        <a onclick="javascript:user2()" href="">User2</a>
         <a href="./?about">About</a>
         <a href="./?this-page-not-exist">404</a>
     </div>
