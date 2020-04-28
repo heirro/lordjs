@@ -16,7 +16,7 @@
         <a href="./?this-page-not-exist">404</a>
     </div>
 <div id="lordspa"></div>
-<script><?php echo $packed_js;?></script>
+<script><?php echo $routingjs;?></script>
 <script src="_lord/webpack.js"></script>
 </body>
 </html>
