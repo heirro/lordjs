@@ -10,20 +10,12 @@
 <h1>Single Page Application</h1>
     <div>
         <a href="./?home">Home</a>
-        <a onclick="javascript:user1()" href="">User1</a>
-        <a onclick="javascript:user2()" href="">User2</a>
+        <a href="./?u/#user1">User1</a>
+        <a href="./?u/#user2">User2</a>
         <a href="./?about">About</a>
         <a href="./?this-page-not-exist">404</a>
     </div>
 <div id="lordspa"></div>
-<script>
-function user1(){
-window.location.replace("./?u/#user1");
-    }
-  function user2(){
-window.location.replace("./?u/#user2");
-    }
-</script>
 <script><?php echo $routingjs;?></script>
 <script src="_lord/webpack.js"></script>
 </body>
