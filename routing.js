@@ -1,11 +1,11 @@
 var indexPage = "home";
 var errorPage = "404";
-var parameter = "\";
+var parameter = "?";
 var routing = {
     "home": "./views/home",
     "about": "./views/about",
-    "user/user1": "./views/user1",
-    "user/user2": "./views/user2",
+    "u/#user1": "./views/user1",
+    "u/#user2": "./views/user2",
     "404": "./views/404"
 };
 
