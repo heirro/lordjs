@@ -1,4 +1,4 @@
-<?php require __DIR__.'/vendor/packer.php';?>
+<?php require __DIR__.'/vendor/obfuscator.php';?>
 <html>
 <head>
 <title>Single Page Application</title>
@@ -16,7 +16,7 @@
         <a href="./?this-page-not-exist">404</a>
     </div>
 <div id="lordspa"></div>
-<script><?php echo $routingjs;?></script>
+<script><?php echo $obsfucated;?></script>
 <script src="_lord/webpack.js"></script>
 </body>
 </html>
