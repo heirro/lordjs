@@ -7,9 +7,9 @@
   </head>
 <h1>Single Page Application</h1>
     <div>
-        <a href="./?home">Home</a>
-        <a href="./?user/user1">User1</a>
-        <a href="./?user/user2">User2</a>
-        <a href="./?about">About</a>
-        <a href="./?this-page-not-exist">404</a>
+        <a href="./#/home">Home</a>
+        <a href="./#/user/user1">User1</a>
+        <a href="./#/user/user2">User2</a>
+        <a href="./#/about">About</a>
+        <a href="./#/this-page-not-exist">404</a>
     </div>
