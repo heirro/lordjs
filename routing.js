@@ -4,8 +4,8 @@ var parameter = "?";
 var routing = {
     "home": "./views/home",
     "about": "./views/about",
-    "u/#user1": "./views/user1",
-    "u/#user2": "./views/user2",
+    "u/user1": "./views/user1",
+    "u/user2": "./views/user2",
     "404": "./views/404"
 };
 
