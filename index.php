@@ -10,8 +10,8 @@
 <h1>Single Page Application</h1>
     <div>
         <a href="./?home">Home</a>
-        <a href="./?u/#user1">User1</a>
-        <a href="./?u/#user2">User2</a>
+        <a href="./?u/user1">User1</a>
+        <a href="./?u/user2">User2</a>
         <a href="./?about">About</a>
         <a href="./?this-page-not-exist">404</a>
     </div>
