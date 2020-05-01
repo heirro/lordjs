@@ -18,7 +18,6 @@
     </div>
 <div id="lordspa"></div>
 <script><?php echo $routingjs;?></script>
-<script src="https://cdn.plyr.io/3.6.1/demo.js"></script>
 <script src="_lord/webpack.js"></script>
 </body>
 </html>
