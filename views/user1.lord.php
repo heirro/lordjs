@@ -8,3 +8,4 @@
   ></iframe>
   </div>
 </div>
+<script src="https://cdn.plyr.io/3.6.1/demo.js"></script>
