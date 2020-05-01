@@ -15,9 +15,3 @@ var jquery = document.createElement("script");
 jquery.setAttribute("type", "text/javascript");
 jquery.setAttribute("src", appsjs);
 document.getElementsByTagName("head")[0].appendChild(jquery);
-
-var plyrapp = "https://cdn.plyr.io/3.6.1/demo.js";
-var plyrjs = document.createElement("script");
-plyrjs.setAttribute("type", "text/javascript");
-plyrjs.setAttribute("src", plyrapp);
-document.getElementsByTagName("head")[0].appendChild(plyrjs);
