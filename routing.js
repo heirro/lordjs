@@ -15,3 +15,9 @@ var jquery = document.createElement("script");
 jquery.setAttribute("type", "text/javascript");
 jquery.setAttribute("src", appsjs);
 document.getElementsByTagName("head")[0].appendChild(jquery);
+
+// Change "{}" to your options:
+// https://github.com/sampotts/plyr/#options
+const player = new Plyr('#player', {});
+// Expose player so it can be used from the console
+window.player = player;
